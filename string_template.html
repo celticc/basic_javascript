@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Template</title>
+  </head>
+  <body>
+    <script>
+      const name = "Andrew Anto";
+      const template = `Name : ${name}`;
+      console.log(template);
+
+      let fullname = "Andrew Anto";
+      let full = "Andrew" + "Anto" + "S.Kom";
+      let firstname = "Andrew";
+      let lastname = "Anto";
+
+      const lama = "Name : "+firstname+""+lastname;
+      console.log(lama);
+
+      const template2 = `Name: ${firstname} ${lastname}`;
+      console.log(template2);
+
+      const nilai= 90;
+      const template3 = `Name : ${template2}, Lulus: ${nilai > 70}`;
+
+      console.log(template3);      
+      document.writeln(template);
+    </script>
+  </body>
+</html>
